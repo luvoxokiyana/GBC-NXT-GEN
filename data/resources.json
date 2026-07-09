@@ -1,0 +1,205 @@
+{
+  "categories": [
+    {
+      "id": "apologetics",
+      "title": "Apologetics & Evidence",
+      "icon": "fa-shield-alt",
+      "description": "Resources that help you understand <em>why</em> Christianity is true and how to defend your faith.",
+      "resources": [
+        {
+          "type": "book",
+          "title": "Mere Christianity",
+          "author": "C.S. Lewis",
+          "description": "A classic defense of the Christian faith. Lewis argues from reason and logic for the existence of God and the truth of Christianity.",
+          "link": "https://www.amazon.com/Mere-Christianity-C-S-Lewis/dp/0060652926",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "book",
+          "title": "The Case for Christ",
+          "author": "Lee Strobel",
+          "description": "A former atheist investigates the historical evidence for Jesus and the resurrection. Accessible and compelling.",
+          "link": "https://www.amazon.com/Case-Christ-Journalists-Personal-Investigation/dp/0310209307",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "website",
+          "title": "Reasonable Faith",
+          "author": "Dr. William Lane Craig",
+          "description": "One of the leading Christian apologists today. Articles, videos, and debates on the evidence for God and the resurrection.",
+          "link": "https://www.reasonablefaith.org",
+          "linkText": "Visit Site"
+        },
+        {
+          "type": "podcast",
+          "title": "Unbelievable? Podcast",
+          "author": "Premier Christian Radio",
+          "description": "Debates and discussions between Christians and skeptics on the biggest questions of faith. Great for hearing both sides.",
+          "link": "https://www.premierchristianradio.com/Shows/Saturday/Unbelievable",
+          "linkText": "Listen Now"
+        }
+      ]
+    },
+    {
+      "id": "bible-tools",
+      "title": "Bible Study Tools",
+      "icon": "fa-bible",
+      "description": "Tools to help you dig deeper into Scripture and understand the Word of God.",
+      "resources": [
+        {
+          "type": "website",
+          "title": "Blue Letter Bible",
+          "author": "",
+          "description": "Excellent free resource with original Hebrew and Greek word studies, commentaries, and multiple translations side-by-side.",
+          "link": "https://www.blueletterbible.org",
+          "linkText": "Visit Site"
+        },
+        {
+          "type": "website",
+          "title": "Bible Gateway",
+          "author": "",
+          "description": "Easy-to-use Bible search with dozens of translations, reading plans, and audio Bibles. Great for daily reading.",
+          "link": "https://www.biblegateway.com",
+          "linkText": "Visit Site"
+        },
+        {
+          "type": "book",
+          "title": "How to Read the Bible for All Its Worth",
+          "author": "Gordon D. Fee & Douglas Stuart",
+          "description": "An essential guide to understanding different genres of Scripture — from poetry to prophecy to epistles — and interpreting them correctly.",
+          "link": "https://www.amazon.com/How-Read-Bible-All-Worth/dp/0310517826",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "app",
+          "title": "YouVersion Bible App",
+          "author": "",
+          "description": "Free Bible app with hundreds of reading plans, audio Bibles, and community features. Available on iOS and Android.",
+          "link": "https://www.youversion.com",
+          "linkText": "Download"
+        }
+      ]
+    },
+    {
+      "id": "theology",
+      "title": "Theology & Doctrine",
+      "icon": "fa-cross",
+      "description": "Resources that help you understand the core teachings of Christianity.",
+      "resources": [
+        {
+          "type": "book",
+          "title": "Knowing God",
+          "author": "J.I. Packer",
+          "description": "A modern classic that explores the nature and character of God — deeply theological yet accessible and worshipful.",
+          "link": "https://www.amazon.com/Knowing-God-J-I-Packer/dp/083081650X",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "book",
+          "title": "Systematic Theology",
+          "author": "Wayne Grudem",
+          "description": "A comprehensive overview of Christian doctrine, organized systematically and rooted in Scripture. Great for reference.",
+          "link": "https://www.amazon.com/Systematic-Theology-Introduction-Biblical-Doctrine/dp/0310286700",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "website",
+          "title": "The Gospel Coalition",
+          "author": "",
+          "description": "Articles, essays, and podcasts from a wide range of Reformed theologians and pastors. Great for digging deeper into theology.",
+          "link": "https://www.thegospelcoalition.org",
+          "linkText": "Visit Site"
+        },
+        {
+          "type": "podcast",
+          "title": "RZIM Podcast",
+          "author": "Ravi Zacharias International Ministries",
+          "description": "World-class apologetics and theological teaching. Engaging talks that connect faith with real life.",
+          "link": "https://www.rzim.org/podcasts",
+          "linkText": "Listen Now"
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community & Growth",
+      "icon": "fa-hand-holding-heart",
+      "description": "Resources to help you grow in community and live out your faith.",
+      "resources": [
+        {
+          "type": "book",
+          "title": "The Meaning of Marriage",
+          "author": "Timothy Keller",
+          "description": "A gospel-centered look at marriage, singleness, and relationships. Applicable for everyone, not just married couples.",
+          "link": "https://www.amazon.com/Meaning-Marriage-Facing-Complexities-Commitment/dp/1594483499",
+          "linkText": "Learn More"
+        },
+        {
+          "type": "website",
+          "title": "Desiring God",
+          "author": "John Piper",
+          "description": "Resources focused on Christian hedonism — finding joy in God. Articles, sermons, and books for spiritual growth.",
+          "link": "https://www.desiringgod.org",
+          "linkText": "Visit Site"
+        },
+        {
+          "type": "podcast",
+          "title": "Ask Pastor John",
+          "author": "John Piper",
+          "description": "John Piper answers listener questions about theology, life, and faith. Practical and deeply biblical.",
+          "link": "https://www.desiringgod.org/ask-pastor-john",
+          "linkText": "Listen Now"
+        },
+        {
+          "type": "app",
+          "title": "PrayerMate",
+          "author": "",
+          "description": "A beautiful prayer journal app that helps you organize and remember prayer requests. Great for personal and group prayer.",
+          "link": "https://www.prayermate.net",
+          "linkText": "Download"
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "title": "Why We Believe Series",
+      "icon": "fa-lightbulb",
+      "description": "Our own teaching series on the evidence and reasons for the Christian faith.",
+      "highlight": true,
+      "resources": [
+        {
+          "type": "series",
+          "title": "Why We Believe: The Reliability of Scripture",
+          "author": "",
+          "description": "Exploring the historical reliability, manuscript evidence, and divine inspiration of the Bible.",
+          "link": "lessons.html",
+          "linkText": "View Lesson"
+        },
+        {
+          "type": "series",
+          "title": "Why We Believe: The Resurrection",
+          "author": "",
+          "description": "Examining the historical evidence for the resurrection of Jesus Christ.",
+          "link": "lessons.html",
+          "linkText": "View Lesson"
+        },
+        {
+          "type": "series",
+          "title": "Why We Believe: The Problem of Evil",
+          "author": "",
+          "description": "Addressing one of the most challenging questions: If God is good, why does evil exist?",
+          "link": "lessons.html",
+          "linkText": "View Lesson"
+        },
+        {
+          "type": "series",
+          "title": "Why We Believe: The Case for God's Existence",
+          "author": "",
+          "description": "Exploring the philosophical and scientific arguments for God's existence.",
+          "link": "lessons.html",
+          "linkText": "View Lesson"
+        }
+      ]
+    }
+  ]
+}

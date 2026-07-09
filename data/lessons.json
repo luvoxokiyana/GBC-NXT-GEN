@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "title": "Why We Believe: The Reliability of Scripture",
+        "date": "2026-07-02",
+        "book": "2 Timothy",
+        "scripture": "2 Timothy 3:16-17",
+        "topic": "Apologetics",
+        "summary": "Exploring the historical reliability, manuscript evidence, and divine inspiration of the Bible. Why can we trust that Scripture is God's Word?",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "2",
+        "title": "The Resurrection: Evidence for Our Hope",
+        "date": "2026-06-25",
+        "book": "1 Corinthians",
+        "scripture": "1 Corinthians 15:12-20",
+        "topic": "Apologetics",
+        "summary": "Examining the historical evidence for the resurrection of Jesus Christ and why it's the cornerstone of our faith.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "3",
+        "title": "Romans: The Gospel Explained",
+        "date": "2026-06-18",
+        "book": "Romans",
+        "scripture": "Romans 1:16-17",
+        "topic": "Doctrine",
+        "summary": "Beginning our study through the book of Romans, exploring Paul's systematic presentation of the gospel.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "4",
+        "title": "Why We Believe: The Problem of Evil",
+        "date": "2026-06-11",
+        "book": "Genesis",
+        "scripture": "Genesis 1-3",
+        "topic": "Apologetics",
+        "summary": "Addressing one of the most challenging questions: If God is good and all-powerful, why does evil exist?",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "5",
+        "title": "The Trinity: Understanding God's Nature",
+        "date": "2026-06-04",
+        "book": "Matthew",
+        "scripture": "Matthew 28:19",
+        "topic": "Doctrine",
+        "summary": "Exploring the biblical foundation for the Trinity and why understanding God's triune nature matters for our faith.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "6",
+        "title": "Faith and Reason: Can We Know God?",
+        "date": "2026-05-28",
+        "book": "Hebrews",
+        "scripture": "Hebrews 11:1-6",
+        "topic": "Apologetics",
+        "summary": "Examining the relationship between faith and reason, and how we can have confidence in our knowledge of God.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "7",
+        "title": "Suffering and God's Sovereignty",
+        "date": "2026-05-21",
+        "book": "Job",
+        "scripture": "Job 1-2",
+        "topic": "Theology",
+        "summary": "Learning from Job's example how to trust God's sovereignty even when we don't understand our circumstances.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "8",
+        "title": "Why We Believe: The Case for God's Existence",
+        "date": "2026-05-14",
+        "book": "Romans",
+        "scripture": "Romans 1:18-20",
+        "topic": "Apologetics",
+        "summary": "Exploring the philosophical and scientific arguments for God's existence, from the cosmological to the teleological.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "9",
+        "title": "The Gospel: What Did Jesus Actually Accomplish?",
+        "date": "2026-05-07",
+        "book": "Mark",
+        "scripture": "Mark 10:45",
+        "topic": "Gospel",
+        "summary": "Understanding the full scope of Christ's work — substitution, atonement, and victory over sin and death.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "10",
+        "title": "Discipleship: Following Jesus Daily",
+        "date": "2026-04-30",
+        "book": "Luke",
+        "scripture": "Luke 9:23-26",
+        "topic": "Discipleship",
+        "summary": "What does it truly mean to be a disciple of Jesus? Exploring the cost and joy of daily following Christ.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "11",
+        "title": "The Holy Spirit: Power for Living",
+        "date": "2026-04-23",
+        "book": "Acts",
+        "scripture": "Acts 1:8",
+        "topic": "Doctrine",
+        "summary": "Understanding the role and work of the Holy Spirit in the life of every believer.",
+        "speaker": "Pastor Mike"
+    },
+    {
+        "id": "12",
+        "title": "Why We Believe: The Resurrection Debate",
+        "date": "2026-04-16",
+        "book": "1 Corinthians",
+        "scripture": "1 Corinthians 15:1-11",
+        "topic": "Apologetics",
+        "summary": "A deep dive into the historical arguments for the resurrection, addressing common objections.",
+        "speaker": "Pastor Mike"
+    }
+]

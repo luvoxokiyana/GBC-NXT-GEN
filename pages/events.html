@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBC NEXT GEN | Events</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/events.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GBC</span>
+                <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                <span class="logo-sub">NEXT GEN</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/lessons.html">Lessons</a></li>
+                <li><a href="/pages/resources.html">Resources</a></li>
+                <li><a href="/pages/events.html" class="active">Events</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html" class="nav-cta">Join Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Events</h1>
+            <p>Stay connected — Bible studies, community hangouts, and special gatherings.</p>
+        </div>
+    </section>
+
+    <!-- ===== EVENTS INTRODUCTION ===== -->
+    <section class="events-intro">
+        <div class="container">
+            <div class="intro-content">
+                <p>
+                    We're a small community that loves spending time together — whether we're digging into Scripture,
+                    playing volleyball at the beach, or visiting other churches. Check out what's coming up and join us!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FILTERS ===== -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-wrapper">
+                <div class="filter-controls">
+                    <div class="filter-group">
+                        <label for="eventTypeFilter"><i class="fas fa-tag"></i> Event Type</label>
+                        <select id="eventTypeFilter">
+                            <option value="all">All Events</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="eventSort"><i class="fas fa-sort"></i> Sort</label>
+                        <select id="eventSort">
+                            <option value="upcoming">Upcoming First</option>
+                            <option value="past">Past First</option>
+                        </select>
+                    </div>
+                    <button id="resetFilters" class="btn-reset">
+                        <i class="fas fa-undo"></i> Reset
+                    </button>
+                </div>
+                <div class="results-info">
+                    <span id="resultsCount">Loading events...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EVENTS GRID ===== -->
+    <section class="events-grid-section">
+        <div class="container">
+            <div id="eventsContainer">
+                <div id="eventsLoading" style="text-align: center; padding: 60px 0; color: var(--gray);">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--green-accent);"></i>
+                    <p style="margin-top: 12px;">Loading events...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Have an Idea for an Event?</h2>
+                <p>We're always open to new ideas — beach days, church visits, game nights, or something else. Let us know!</p>
+                <div class="cta-banner-buttons">
+                    <a href="/pages/contact.html" class="btn-primary btn-white">
+                        <i class="fas fa-lightbulb"></i> Suggest an Event
+                    </a>
+                    <a href="/pages/contact.html" class="btn-outline btn-outline-white">
+                        <i class="fab fa-whatsapp"></i> Join WhatsApp Group
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-text">GBC</span>
+                        <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                    </div>
+                    <p>GBC NEXT GEN is the young adults ministry of Grace Bible Church. We're a small community committed to truth-driven faith, authentic relationships, and gospel-centered living.</p>
+                    <div class="footer-social">
+                        <a href="#" title="WhatsApp Group"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/lessons.html">Lessons</a></li>
+                        <li><a href="/pages/resources.html">Resources</a></li>
+                        <li><a href="/pages/events.html">Events</a></li>
+                        <li><a href="/pages/about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="/pages/resources.html">View All Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Grace Bible Church, Your City</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp Group (Join Us!)</li>
+                        <li><i class="fas fa-envelope"></i> nextgen@gbc.org</li>
+                        <li><i class="fas fa-clock"></i> Wednesdays @ 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GBC NEXT GEN. All rights reserved.</p>
+                <p class="footer-verse">"Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have." — 1 Peter 3:15</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="/js/events.js"></script>
+    <script>
+        // Hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

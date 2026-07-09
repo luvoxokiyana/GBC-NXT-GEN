@@ -1,0 +1,70 @@
+{
+  "mission": {
+    "title": "Our Mission",
+    "description": "We exist to help young adults grow in their faith, build authentic relationships, and understand <em>why</em> they believe what they believe. We're a small community committed to truth-driven faith and gospel-centered living."
+  },
+  "values": [
+    {
+      "icon": "fa-bible",
+      "title": "Truth-Driven",
+      "description": "We don't follow blindly. We examine Scripture with honesty, engage with evidence, and seek to understand <em>why</em> Christianity is true."
+    },
+    {
+      "icon": "fa-users",
+      "title": "Authentic Community",
+      "description": "We're a tight-knit group where everyone knows your name. No masks, no pretense — just real relationships and honest conversations."
+    },
+    {
+      "icon": "fa-cross",
+      "title": "Gospel-Centered",
+      "description": "Everything we do points back to Jesus — His life, death, resurrection, and the hope He offers to all who believe."
+    },
+    {
+      "icon": "fa-hand-holding-heart",
+      "title": "Welcoming",
+      "description": "Whether you're a lifelong believer or just exploring, you're welcome here. Come as you are — we're all learning together."
+    },
+    {
+      "icon": "fa-pray",
+      "title": "Prayer-Focused",
+      "description": "We believe prayer changes things. We pray for each other, support one another, and trust God to work in and through us."
+    },
+    {
+      "icon": "fa-heart",
+      "title": "Community-Centered",
+      "description": "From Bible studies to beach volleyball, we believe faith is lived out in community. We grow together in and out of the study room."
+    }
+  ],
+  "story": {
+    "title": "Our Story",
+    "paragraphs": [
+      "GBC NEXT GEN started as a small group of young adults who wanted more than just surface-level faith. We wanted depth. We wanted truth. We wanted community.",
+      "What began as a handful of people meeting in a living room has grown into a vibrant community of young adults committed to studying Scripture with conviction and loving each other well.",
+      "We're still small — and we like it that way. Being small means we actually know each other. We celebrate together, struggle together, and grow together.",
+      "Today, we meet every Wednesday night for Bible study, with regular events like beach days, church visits, and game nights. We're always excited to welcome new faces into our family."
+    ]
+  },
+  "leader": {
+    "name": "Sasha",
+    "role": "Group Leader",
+    "bio": "Sasha has been leading GBC NEXT GEN since its early days. He's passionate about helping young adults discover the truth of Scripture and build real community. Whether it's leading a Bible study, organizing a beach day, or grabbing coffee with someone one-on-one, Sasha is all in."
+  },
+  "facts": [
+    {
+      "number": "2+",
+      "label": "Years Together"
+    },
+    {
+      "number": "5-10",
+      "label": "Average Attendance"
+    },
+    {
+      "number": "3",
+      "label": "Weekly Events"
+    },
+    {
+      "number": "50+",
+      "label": "Lessons Taught"
+    }
+  ]
+}

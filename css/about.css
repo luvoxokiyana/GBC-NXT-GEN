@@ -1,0 +1,450 @@
+/* ===== ABOUT PAGE SPECIFIC STYLES ===== */
+
+/* Page Header */
+.page-header {
+    padding: 140px 0 60px;
+    background: var(--black-light);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    color: var(--gray);
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 0 80px;
+    background: var(--black);
+}
+
+/* Mission Statement */
+.about-mission {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.about-mission .mission-icon {
+    font-size: 3rem;
+    color: var(--green-accent);
+    opacity: 0.3;
+    margin-bottom: 16px;
+}
+
+.about-mission h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.about-mission p {
+    color: var(--gray);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-mission p em {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+/* Core Values Grid */
+.about-values {
+    margin-bottom: 60px;
+}
+
+.about-values .section-label {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--green-accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about-values h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.about-values .values-subtitle {
+    text-align: center;
+    color: var(--gray);
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.value-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    transition: var(--transition);
+}
+
+.value-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-hover);
+}
+
+.value-card .value-icon {
+    font-size: 2rem;
+    color: var(--green-accent);
+    margin-bottom: 12px;
+    opacity: 0.7;
+}
+
+.value-card h3 {
+    color: var(--white);
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+}
+
+.value-card p {
+    color: var(--gray);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.value-card p em {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+/* Our Story */
+.about-story {
+    margin-bottom: 60px;
+}
+
+.about-story .story-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-story .story-content .section-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--green-accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about-story .story-content h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.about-story .story-content p {
+    color: var(--gray);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.about-story .story-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.about-story .story-content p em {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+.about-story .story-image {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: var(--radius);
+    padding: 40px;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-story .story-image i {
+    font-size: 4rem;
+    color: var(--green-accent);
+    opacity: 0.15;
+    margin-bottom: 12px;
+}
+
+.about-story .story-image span {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+/* Leadership Team */
+.about-leadership {
+    margin-bottom: 60px;
+}
+
+.about-leadership .section-label {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--green-accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about-leadership h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.about-leadership .leadership-subtitle {
+    text-align: center;
+    color: var(--gray);
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.leader-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.leader-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.leader-card .leader-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;
+    font-size: 2.5rem;
+    color: var(--green-accent);
+    opacity: 0.5;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.leader-card .leader-avatar i {
+    font-size: 2.5rem;
+}
+
+.leader-card h3 {
+    color: var(--white);
+    font-size: 1.05rem;
+    margin-bottom: 2px;
+}
+
+.leader-card .leader-role {
+    color: var(--green-accent);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Quick Facts */
+.about-facts {
+    margin-bottom: 60px;
+}
+
+.about-facts .section-label {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--green-accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about-facts h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+}
+
+.fact-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.fact-card:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.fact-card .fact-number {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--green-accent);
+    display: block;
+}
+
+.fact-card .fact-label {
+    color: var(--gray);
+    font-size: 0.95rem;
+    margin-top: 4px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 120px 0 40px;
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .about-section {
+        padding: 30px 0 60px;
+    }
+
+    .about-mission h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-mission p {
+        font-size: 1rem;
+    }
+
+    .about-values h2,
+    .about-story .story-content h2,
+    .about-leadership h2,
+    .about-facts h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-story .story-wrapper {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .about-story .story-image {
+        min-height: 120px;
+        padding: 24px;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .leadership-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .facts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-mission h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-values h2,
+    .about-story .story-content h2,
+    .about-leadership h2,
+    .about-facts h2 {
+        font-size: 1.3rem;
+    }
+
+    .value-card {
+        padding: 20px;
+    }
+
+    .leader-card {
+        padding: 18px;
+    }
+
+    .leader-card .leader-avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .leader-card .leader-avatar i {
+        font-size: 2rem;
+    }
+
+    .facts-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .fact-card {
+        padding: 16px;
+    }
+
+    .fact-card .fact-number {
+        font-size: 2rem;
+    }
+}

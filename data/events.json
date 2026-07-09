@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Weekly Bible Study: Why We Believe",
+      "type": "bible-study",
+      "date": "2026-07-09",
+      "time": "7:00 PM - 9:00 PM",
+      "location": "GBC Youth Room",
+      "description": "Continuing our series on the evidence and reasons for the Christian faith. This week: The Problem of Evil.",
+      "link": "lessons.html",
+      "linkText": "View Study Materials",
+      "status": "upcoming"
+    },
+    {
+      "id": "2",
+      "title": "Beach Volleyball Day",
+      "type": "social",
+      "date": "2026-07-12",
+      "time": "2:00 PM - 6:00 PM",
+      "location": "Santa Monica Beach",
+      "description": "Join us for an afternoon of volleyball, food, and fellowship at the beach. Bring a towel and your game face!",
+      "link": "contact.html",
+      "linkText": "Get Details",
+      "status": "upcoming"
+    },
+    {
+      "id": "3",
+      "title": "Visiting Grace Community Church",
+      "type": "church-visit",
+      "date": "2026-07-19",
+      "time": "10:00 AM - 1:00 PM",
+      "location": "Grace Community Church, Downtown",
+      "description": "We're visiting another church in the area to connect with other believers and see how they do ministry. Lunch afterward!",
+      "link": "contact.html",
+      "linkText": "Join Us",
+      "status": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "Bonfire & Worship Night",
+      "type": "special",
+      "date": "2026-07-25",
+      "time": "7:00 PM - 10:00 PM",
+      "location": "Malibu Beach",
+      "description": "An evening of worship, testimonies, and s'mores around the bonfire. Bring a friend and your favorite worship song!",
+      "link": "contact.html",
+      "linkText": "RSVP",
+      "status": "upcoming"
+    },
+    {
+      "id": "5",
+      "title": "Weekly Bible Study: The Resurrection",
+      "type": "bible-study",
+      "date": "2026-07-02",
+      "time": "7:00 PM - 9:00 PM",
+      "location": "GBC Youth Room",
+      "description": "Examining the historical evidence for the resurrection of Jesus Christ.",
+      "link": "lessons.html",
+      "linkText": "View Study",
+      "status": "past"
+    },
+    {
+      "id": "6",
+      "title": "Game Night & Fellowship",
+      "type": "community",
+      "date": "2026-06-28",
+      "time": "6:00 PM - 10:00 PM",
+      "location": "Mike & Sarah's House",
+      "description": "Board games, video games, snacks, and good conversation. Everyone's welcome — come hang out!",
+      "link": "contact.html",
+      "linkText": "Get Address",
+      "status": "past"
+    },
+    {
+      "id": "7",
+      "title": "Hiking & Reflection",
+      "type": "community",
+      "date": "2026-06-21",
+      "time": "8:00 AM - 12:00 PM",
+      "location": "Griffith Park",
+      "description": "A morning hike with time for reflection, prayer, and conversation. A great way to start the week.",
+      "link": "contact.html",
+      "linkText": "More Info",
+      "status": "past"
+    },
+    {
+      "id": "8",
+      "title": "Visiting Hillsong LA",
+      "type": "church-visit",
+      "date": "2026-06-14",
+      "time": "9:30 AM - 12:30 PM",
+      "location": "Hillsong LA, Downtown",
+      "description": "We visited Hillsong LA to experience a different worship style and connect with other young adults.",
+      "link": "contact.html",
+      "linkText": "More Info",
+      "status": "past"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Get in Touch",
+  "subtitle": "We'd love to hear from you — whether you're curious, ready to join, or just want to say hi.",
+  "info": {
+    "title": "Connect With Us",
+    "description": "We're a small community that meets weekly for Bible study, events, and fellowship. Here's how you can reach us:",
+    "items": [
+      {
+        "icon": "fa-regular fa-envelope",
+        "label": "Email",
+        "value": "nextgen@gbc.org",
+        "link": "mailto:nextgen@gbc.org"
+      },
+      {
+        "icon": "fab fa-whatsapp",
+        "label": "WhatsApp",
+        "value": "Join Our Group",
+        "link": "#"
+      },
+      {
+        "icon": "fa-map-marker-alt",
+        "label": "Where We Meet",
+        "value": "Grace Bible Church, Your City",
+        "link": "#"
+      },
+      {
+        "icon": "fa-clock",
+        "label": "When We Meet",
+        "value": "Wednesdays @ 7:00 PM",
+        "link": "#"
+      }
+    ]
+  },
+  "form": {
+    "title": "Send a Message",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as we can.",
+    "formspreeEndpoint": "https://formspree.io/f/mbdvvvwr",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Your Name",
+        "type": "text",
+        "placeholder": "John Doe",
+        "required": true
+      },
+      {
+        "id": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "john@example.com",
+        "required": true
+      },
+      {
+        "id": "subject",
+        "label": "Subject",
+        "type": "select",
+        "placeholder": "",
+        "options": [
+          "I'm interested in joining",
+          "I have a question",
+          "I want to suggest a resource",
+          "Prayer request",
+          "Other"
+        ],
+        "required": true
+      },
+      {
+        "id": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Tell us what's on your mind...",
+        "required": true
+      }
+    ],
+    "submitText": "Send Message",
+    "successMessage": {
+      "title": "Message Sent!",
+      "description": "Thanks for reaching out. We'll get back to you soon."
+    },
+    "errorMessage": {
+      "title": "Something Went Wrong",
+      "description": "There was a problem sending your message. Please try again or email us directly at nextgen@gbc.org."
+    }
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBC NEXT GEN | Resources</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/resources.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GBC</span>
+                <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                <span class="logo-sub">NEXT GEN</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/lessons.html">Lessons</a></li>
+                <li><a href="/pages/resources.html" class="active">Resources</a></li>
+                <li><a href="/pages/events.html">Events</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html" class="nav-cta">Join Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Resources</h1>
+            <p>Tools, books, and links to help you grow in your faith and understanding.</p>
+        </div>
+    </section>
+
+    <!-- ===== RESOURCES INTRODUCTION ===== -->
+    <section class="resources-intro">
+        <div class="container">
+            <div class="intro-content">
+                <p>
+                    We believe faith should be grounded in truth, not feelings. This page collects some of the best resources we've found 
+                    — books, podcasts, websites, and tools — to help you study Scripture, defend your faith, and grow in your walk with Christ.
+                </p>
+                <p class="intro-verse">
+                    <i class="fas fa-quote-left"></i>
+                    "Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have."
+                    <span>— 1 Peter 3:15</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RESOURCES GRID ===== -->
+    <section class="resources-grid">
+        <div class="container" id="resourcesContainer">
+            <!-- Resources will be dynamically loaded here -->
+            <div id="resourcesLoading" style="text-align: center; padding: 60px 0; color: var(--gray);">
+                <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--green-accent);"></i>
+                <p style="margin-top: 12px;">Loading resources...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SUGGEST A RESOURCE ===== -->
+    <section class="suggest-resource">
+        <div class="container">
+            <div class="suggest-content">
+                <h2>Know a Great Resource?</h2>
+                <p>
+                    Found a book, podcast, or website that's helped you grow? We'd love to add it to our collection.
+                    Share it with us and we'll consider including it here for others to benefit from.
+                </p>
+                <a href="contact.html" class="btn-primary">
+                    <i class="fas fa-envelope"></i> Suggest a Resource
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-text">GBC</span>
+                        <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                    </div>
+                    <p>GBC NEXT GEN is the young adults ministry of Grace Bible Church. We're a small community committed to truth-driven faith, authentic relationships, and gospel-centered living.</p>
+                    <div class="footer-social">
+                        <a href="#" title="WhatsApp Group"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="lessons.html">Lessons</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">View All Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Grace Bible Church, Your City</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp Group (Join Us!)</li>
+                        <li><i class="fas fa-envelope"></i> nextgen@gbc.org</li>
+                        <li><i class="fas fa-clock"></i> Wednesdays @ 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GBC NEXT GEN. All rights reserved.</p>
+                <p class="footer-verse">"Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have." — 1 Peter 3:15</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="/js/resources.js"></script>
+    <script>
+        // Hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

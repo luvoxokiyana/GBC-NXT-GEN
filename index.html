@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBC NEXT GEN | Young Adults Bible Studies</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GBC</span>
+                <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                <span class="logo-sub">NEXT GEN</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/lessons.html">Lessons</a></li>
+                <li><a href="pages/resources.html">Resources</a></li>
+                <li><a href="pages/events.html">Events</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Young Adults Ministry</div>
+            <h1>
+                <span class="hero-gbc">GBC</span>
+                <span class="hero-nxt">N<span class="hero-cross">✝</span>T</span>
+                <span class="hero-gen">GEN</span>
+            </h1>
+            <p class="hero-subtitle">Truth-Driven · Community-Focused · Gospel-Centered</p>
+            <p class="hero-verse">
+                <i class="fas fa-quote-left"></i>
+                "Study to show yourself approved, a worker who has no need to be ashamed, rightly handling the word of truth."
+                <span class="verse-ref">— 2 Timothy 2:15</span>
+            </p>
+            <p class="hero-description">
+                We're a small community committed to studying Scripture with conviction, understanding <em>why</em> we believe what we believe — not just what we believe.
+            </p>
+            <div class="cta-buttons">
+                <a href="lessons.html" class="btn-primary">
+                    <i class="fas fa-book-open"></i> Explore Lessons
+                </a>
+                <a href="about.html" class="btn-secondary">
+                    <i class="fas fa-users"></i> Meet Our Community
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES / QUICK INFO ===== -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bible"></i></div>
+                    <h3>Truth &amp; Reason</h3>
+                    <p>We study not just <em>what</em> Scripture says, but <em>why</em> we can trust it as the foundation of our faith.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Close Community</h3>
+                    <p>A small, tight-knit group where everyone knows your name and walks alongside you in your faith journey.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Beyond the Study</h3>
+                    <p>From beach volleyball to visiting other churches — we grow together in and out of the study room.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RECENT LESSONS ===== -->
+    <section class="recent-lessons">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Study Archive</span>
+                <h2>Recent Bible Studies</h2>
+                <p>Dive into our latest lessons where we examine Scripture with honesty, depth, and conviction.</p>
+            </div>
+            <div class="lessons-grid" id="recentLessons">
+                <!-- Lessons will be dynamically loaded via JS -->
+            </div>
+            <div class="section-footer">
+                <a href="lessons.html" class="btn-outline">View All Lessons <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== UPCOMING STUDY & EVENTS ===== -->
+    <section class="upcoming">
+        <div class="container">
+            <div class="upcoming-wrapper">
+                <div class="upcoming-content">
+                    <span class="section-tag">Join Us This Week</span>
+                    <h2>Next Study: <span id="nextStudyTitle">Why We Believe</span></h2>
+                    <div class="upcoming-details">
+                        <p><i class="fas fa-calendar-check"></i> Wednesday, 7:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> GBC Youth Room</p>
+                        <p><i class="fas fa-user-pastor"></i> Led by Sahsa Alexandra</p>
+                    </div>
+                    <div class="upcoming-events">
+                        <h4><i class="fas fa-calendar-alt"></i> Upcoming Community Events</h4>
+                        <ul>
+                            <li><span class="event-date">Oct 18</span> Beach Volleyball Day</li>
+                            <li><span class="event-date">Oct 25</span> Visiting Grace Community Church</li>
+                            <li><span class="event-date">Nov 1</span> Bonfire &amp; Worship Night</li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="btn-primary">
+                        <i class="fab fa-whatsapp"></i> Join Our WhatsApp Group
+                    </a>
+                </div>
+                <div class="upcoming-image">
+                    <img src="assets/images/community.jpg" alt="GBC NEXT GEN Community" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHAT WE BELIEVE ===== -->
+    <section class="beliefs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Foundation</span>
+                <h2>Why We Believe</h2>
+                <p>We don't just follow blindly — we examine the evidence for the Christian faith with honesty and rigor.</p>
+            </div>
+            <div class="beliefs-grid">
+                <div class="belief-card">
+                    <div class="belief-number">01</div>
+                    <h3>Scripture is Truth</h3>
+                    <p>We believe the Bible is God's inspired Word — historically reliable, theologically consistent, and life-changing.</p>
+                </div>
+                <div class="belief-card">
+                    <div class="belief-number">02</div>
+                    <h3>Faith with Reason</h3>
+                    <p>Our faith is not blind. We engage with apologetics, philosophy, and history to understand <em>why</em> Christianity is true.</p>
+                </div>
+                <div class="belief-card">
+                    <div class="belief-number">03</div>
+                    <h3>Gospel-Centered</h3>
+                    <p>Everything we do points back to Jesus Christ — His life, death, resurrection, and the hope He offers to all.</p>
+                </div>
+                <div class="belief-card">
+                    <div class="belief-number">04</div>
+                    <h3>Authentic Community</h3>
+                    <p>We walk together, ask hard questions, and grow in faith — no masks, no pretense, just real relationships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Stories</span>
+                <h2>What Our Community Says</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>"This group has challenged me to think deeply about my faith. For the first time, I actually understand <em>why</em> I believe what I believe."</p>
+                    <div class="testimonial-author">
+                        <strong>James M.</strong>
+                        <span>Member since 2023</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>"It's more than just a Bible study — it's family. We study hard, we ask tough questions, and we have a ton of fun together."</p>
+                    <div class="testimonial-author">
+                        <strong>Rachel K.</strong>
+                        <span>Member since 2022</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>"I came skeptical but stayed because of the honesty. No one here pretends to have it all figured out — we're all learning together."</p>
+                    <div class="testimonial-author">
+                        <strong>Daniel R.</strong>
+                        <span>Member since 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Ready to Dive Deeper?</h2>
+                <p>Join a community that values truth, asks hard questions, and grows in faith together. Wednesday nights at 7 PM.</p>
+                <div class="cta-banner-buttons">
+                    <a href="contact.html" class="btn-primary btn-white">
+                        <i class="fab fa-whatsapp"></i> Join WhatsApp Group
+                    </a>
+                    <a href="lessons.html" class="btn-outline btn-outline-white">Browse All Lessons</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-text">GBC</span>
+                        <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                    </div>
+                    <p>GBC NEXT GEN is the young adults ministry of Grace Bible Church. We're a small community committed to truth-driven faith, authentic relationships, and gospel-centered living.</p>
+                    <div class="footer-social">
+                        <a href="#" title="WhatsApp Group"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="lessons.html">Lessons</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Bible Reading Plan</a></li>
+                        <li><a href="#">Why We Believe Series</a></li>
+                        <li><a href="#">Apologetics Library</a></li>
+                        <li><a href="#">Prayer Requests</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Grace Bible Church, Your City</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp Group (Join Us!)</li>
+                        <li><i class="fas fa-envelope"></i> nextgen@gbc.org</li>
+                        <li><i class="fas fa-clock"></i> Wednesdays @ 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GBC NEXT GEN. All rights reserved.</p>
+                <p class="footer-verse">"Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have." — 1 Peter 3:15</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="js/main.js"></script>
+    <script>
+        // Hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Load recent lessons
+        async function loadRecentLessons() {
+            try {
+                const response = await fetch('data/lessons.json');
+                const lessons = await response.json();
+                const container = document.getElementById('recentLessons');
+
+                // Get 3 most recent lessons
+                const recent = lessons.slice(0, 3);
+
+                container.innerHTML = recent.map(lesson => `
+                    <div class="lesson-card">
+                        <div class="lesson-date">${lesson.date}</div>
+                        <h3>${lesson.title}</h3>
+                        <p class="lesson-scripture"><i class="fas fa-bible"></i> ${lesson.scripture}</p>
+                        <p class="lesson-summary">${lesson.summary}</p>
+                        <a href="lesson.html?id=${lesson.id}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading lessons:', error);
+            }
+        }
+
+        loadRecentLessons();
+
+        // Smooth scroll for hero scroll indicator
+        document.querySelector('.hero-scroll')?.addEventListener('click', function() {
+            document.querySelector('.features').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>

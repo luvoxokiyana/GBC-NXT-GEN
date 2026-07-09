@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBC NEXT GEN | Lesson Archive</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/lessons.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GBC</span>
+                <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                <span class="logo-sub">NEXT GEN</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/lessons.html" class="active">Lessons</a></li>
+                <li><a href="/pages/resources.html">Resources</a></li>
+                <li><a href="/pages/events.html">Events</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html" class="nav-cta">Join Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Lesson Archive</h1>
+            <p>Explore our collection of Bible studies — search by topic, scripture, or date.</p>
+        </div>
+    </section>
+
+    <!-- ===== FILTERS & SEARCH ===== -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-wrapper">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search lessons by title, scripture, or topic..." />
+                </div>
+                <div class="filter-controls">
+                    <div class="filter-group">
+                        <label for="bookFilter"><i class="fas fa-bible"></i> Book</label>
+                        <select id="bookFilter">
+                            <option value="all">All Books</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="sortFilter"><i class="fas fa-sort"></i> Sort</label>
+                        <select id="sortFilter">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="title">Alphabetical</option>
+                        </select>
+                    </div>
+                    <button id="resetFilters" class="btn-reset">
+                        <i class="fas fa-undo"></i> Reset
+                    </button>
+                </div>
+            </div>
+            <div class="results-info">
+                <span id="resultsCount">Loading lessons...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LESSONS GRID ===== -->
+    <section class="lessons-archive">
+        <div class="container">
+            <div class="lessons-grid" id="lessonsGrid">
+                <!-- Lessons will be dynamically loaded via JS -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination controls will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Want to Go Deeper?</h2>
+                <p>Join us Wednesday nights at 7 PM for our current study series. We'd love to have you!</p>
+                <div class="cta-banner-buttons">
+                    <a href="contact.html" class="btn-primary btn-white">
+                        <i class="fab fa-whatsapp"></i> Join Our WhatsApp Group
+                    </a>
+                    <a href="about.html" class="btn-outline btn-outline-white">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-text">GBC</span>
+                        <span class="logo-nxt">N<span class="cross-x">✝</span>T</span>
+                    </div>
+                    <p>GBC NEXT GEN is the young adults ministry of Grace Bible Church. We're a small community committed to truth-driven faith, authentic relationships, and gospel-centered living.</p>
+                    <div class="footer-social">
+                        <a href="#" title="WhatsApp Group"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/lessons.html">Lessons</a></li>
+                        <li><a href="/pages/resources.html">Resources</a></li>
+                        <li><a href="/pages/events.html">Events</a></li>
+                        <li><a href="/pages/about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Bible Reading Plan</a></li>
+                        <li><a href="#">Why We Believe Series</a></li>
+                        <li><a href="#">Apologetics Library</a></li>
+                        <li><a href="#">Prayer Requests</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Grace Bible Church, Your City</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp Group (Join Us!)</li>
+                        <li><i class="fas fa-envelope"></i> nextgen@gbc.org</li>
+                        <li><i class="fas fa-clock"></i> Wednesdays @ 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GBC NEXT GEN. All rights reserved.</p>
+                <p class="footer-verse">"Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have." — 1 Peter 3:15</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="/js/lessons.js"></script>
+    <script>
+        // Hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
